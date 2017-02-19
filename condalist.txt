@@ -1,0 +1,25 @@
+# packages in environment at /Users/ignaciosuarez/anaconda/envs/flask-socketio-example:
+#
+click                     6.7                      py27_0  
+enum-compat               0.0.2                     <pip>
+enum34                    1.1.6                     <pip>
+eventlet                  0.20.1                    <pip>
+flask                     0.12                     py27_0  
+Flask-SocketIO            2.8.3                     <pip>
+greenlet                  0.4.12                    <pip>
+itsdangerous              0.24                     py27_0  
+jinja2                    2.9.4                    py27_0  
+markupsafe                0.23                     py27_2  
+openssl                   1.0.2k                        0  
+pip                       9.0.1                    py27_1  
+python                    2.7.13                        0  
+python-engineio           1.2.2                     <pip>
+python-socketio           1.7.1                     <pip>
+readline                  6.2                           2  
+setuptools                27.2.0                   py27_0  
+six                       1.10.0                    <pip>
+sqlite                    3.13.0                        0  
+tk                        8.5.18                        0  
+werkzeug                  0.11.15                  py27_0  
+wheel                     0.29.0                   py27_0  
+zlib                      1.2.8                         3  

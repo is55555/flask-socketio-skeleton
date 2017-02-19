@@ -1,0 +1,46 @@
+name: flask-socketio-example
+channels:
+- !!python/unicode
+  'defaults'
+dependencies:
+- !!python/unicode
+  'click=6.7=py27_0'
+- !!python/unicode
+  'flask=0.12=py27_0'
+- !!python/unicode
+  'itsdangerous=0.24=py27_0'
+- !!python/unicode
+  'jinja2=2.9.4=py27_0'
+- !!python/unicode
+  'markupsafe=0.23=py27_2'
+- !!python/unicode
+  'openssl=1.0.2k=0'
+- !!python/unicode
+  'pip=9.0.1=py27_1'
+- !!python/unicode
+  'python=2.7.13=0'
+- !!python/unicode
+  'readline=6.2=2'
+- !!python/unicode
+  'setuptools=27.2.0=py27_0'
+- !!python/unicode
+  'sqlite=3.13.0=0'
+- !!python/unicode
+  'tk=8.5.18=0'
+- !!python/unicode
+  'werkzeug=0.11.15=py27_0'
+- !!python/unicode
+  'wheel=0.29.0=py27_0'
+- !!python/unicode
+  'zlib=1.2.8=3'
+- pip:
+  - enum-compat==0.0.2
+  - enum34==1.1.6
+  - eventlet==0.20.1
+  - flask-socketio==2.8.3
+  - greenlet==0.4.12
+  - python-engineio==1.2.2
+  - python-socketio==1.7.1
+  - six==1.10.0
+# prefix edited out 
+
