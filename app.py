@@ -2,11 +2,12 @@
 from flask import Flask, render_template, session, request
 from flask_socketio import SocketIO, emit, join_room, leave_room, close_room, rooms, disconnect
 
-# Set async_mode to "threading", "eventlet" or "gevent", or leave it set to None for the application to choose the best option based on installed packages.
+# Set async_mode to "threading", "eventlet" or "gevent", or leave it set to None for the application to
+# choose the best option based on installed packages.
 async_mode = None
-#async_mode = 'threading'
+# async_mode = 'threading'
 
-ns = '/ns0' # namespace
+ns = '/ns0'  # namespace
 
 app = Flask(__name__)
 app.config['SECRET_KEY'] = 'put your secret here'
@@ -108,8 +109,8 @@ def test_disconnect():
 
 if __name__ == '__main__':
     socketio.run(app, debug=True)
-#socketio.run(app, debug=False)
+    # socketio.run(app, debug=False)
 
-#debug = True
-#use_debugger = False
-#use_reloader = False
+    # debug = True
+    # use_debugger = False
+    # use_reloader = False
